@@ -1,25 +1,26 @@
 <template>
   <div id="app">
+    
     <div id="nav">
-      <b-navbar toggleable="">
+      <b-row>
+      <b-navbar toggleable="lg">       
+          <b-navbar-nav class="mr-auto">
+            <img src="@/assets/logo.png" class="img-fluid"/>
+          </b-navbar-nav>
 
-          <b-button v-b-toggle.sidebar-variant>Filtros</b-button>
-          <b-sidebar id="sidebar-variant" title="Sidebar" bg-variant="dark" text-variant="light" shadow>
-            <div class="px-3 py-2">
-              <p>
-                Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis
-                in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
-              </p>
-            </div>
-          </b-sidebar>
-
-        <img src="@/assets/logo.png" class="img-fluid"/>
-        <b-navbar-brand href="#">Oi, tiririca</b-navbar-brand>
-        
-        <b-avatar src="https://placekitten.com/300/300"></b-avatar>
+          <b-navbar-nav class="ml-auto">
+            <b-nav-item-dropdown right>
+              <template #button-content>
+                <em><b-avatar src="https://placekitten.com/300/300"></b-avatar></em>
+              </template>
+              <b-dropdown-item href="#">Profile</b-dropdown-item>
+              <b-dropdown-item href="#">Sign Out</b-dropdown-item>
+            </b-nav-item-dropdown>
+          </b-navbar-nav>     
       </b-navbar>
-
+      </b-row>
     </div>
+    
     <!--router-view CHAMA VIEWS-->
     <router-view/>
   </div>
@@ -27,7 +28,7 @@
 
 <style lang="scss">
 #app {
-  background-color: #2B2A69;
+  background-color: #7D7CE3;
   font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -37,7 +38,7 @@
 }
 
 #nav {
-  background-color: #171C41;
+  background-color: #3F4584;
   .navbar{
     padding: 1.5rem 2rem;
   }

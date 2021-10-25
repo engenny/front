@@ -5,6 +5,21 @@
 npm install
 ```
 
+### ApexChart 
+```
+npm install apexcharts --save
+```
+
+### Vuex
+```
+npm install vuex --save
+```
+
+### Bootstrap Vue
+```
+npm i bootstrap-vue
+```
+
 ### Compiles and hot-reloads for development
 ```
 npm run serve
@@ -19,6 +34,3 @@ npm run build
 ```
 npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

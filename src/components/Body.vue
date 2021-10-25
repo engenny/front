@@ -4,14 +4,45 @@
     <b-container class="bv-cards">
     <b-row>
       <b-col>
-        <b-card header="Multas por dia" class="text-center">
+        <b-card header="Valor Total das Multas" class="text-center">
           <b-card-text><div class="name">
-            {{totalKm[0].finalKm - totalKm[0].initialKm}}
+            {{
+            totalKm[0].finesTotalAmount +
+            totalKm[1].finesTotalAmount +
+            totalKm[2].finesTotalAmount +
+            totalKm[3].finesTotalAmount +
+            totalKm[4].finesTotalAmount +
+            totalKm[5].finesTotalAmount +
+            totalKm[6].finesTotalAmount +
+            totalKm[7].finesTotalAmount +
+            totalKm[8].finesTotalAmount +
+            totalKm[9].finesTotalAmount +
+            totalKm[10].finesTotalAmount +
+            totalKm[11].finesTotalAmount +
+            totalKm[12].finesTotalAmount +
+            totalKm[13].finesTotalAmount +
+            totalKm[14].finesTotalAmount +
+            totalKm[15].finesTotalAmount +
+            totalKm[16].finesTotalAmount +
+            totalKm[17].finesTotalAmount +
+            totalKm[18].finesTotalAmount +
+            totalKm[19].finesTotalAmount +
+            totalKm[20].finesTotalAmount +
+            totalKm[21].finesTotalAmount +
+            totalKm[22].finesTotalAmount +
+            totalKm[23].finesTotalAmount +
+            totalKm[24].finesTotalAmount +
+            totalKm[25].finesTotalAmount +
+            totalKm[26].finesTotalAmount +
+            totalKm[27].finesTotalAmount +
+            totalKm[28].finesTotalAmount +
+            totalKm[29].finesTotalAmount 
+             }}
           </div></b-card-text>
         </b-card>
       </b-col>
       <b-col>
-        <b-card header="Total de Km percorridos" class="text-center">
+        <b-card header="Total de KM's percorridos" class="text-center">
           <b-card-text>
             {{
               (totalKm[0].finalKm - totalKm[0].initialKm) + 
@@ -49,8 +80,8 @@
         </b-card>
       </b-col>
       <b-col>
-        <b-card header="Default" class="text-center">
-          <b-card-text>{{totalKm[0].finalKm - totalKm[0].initialKm}}</b-card-text>
+        <b-card header="Eixos" class="text-center">
+          <b-card-text>Eixo X = Dias<br>Eixo Y = Quilometragem Total por dia</b-card-text>
         </b-card>
       </b-col>
     </b-row>
@@ -105,7 +136,6 @@ export default {
 .card.text-center {
 	background: #3F4584;
   color: #fff;
-  
 }
 h1{
   color: #fff;

@@ -1,6 +1,7 @@
 const state = {routes:[]}
 const getters = {totalKm() {
     return state.routes;
+    // return state.routes.reduce((acc, cur) => cur.finalKm - cur.initialKm + acc, 0);
 }}
 const mutations = {setRoutes(state, payload) {
     state.routes=payload;

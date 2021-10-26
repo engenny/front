@@ -10,7 +10,7 @@
 > 🚧 Automation and design phase are under construction
 
 ## Demo
-![vue](https://user-images.githubusercontent.com/83826211/138887487-d05cdc2b-e484-4ded-a8c3-b35769bdc7b6.png)
+![image](https://user-images.githubusercontent.com/83826211/138894613-a3cf7d54-aef5-4105-b753-e263a5d19168.png)
 
 ## 💻 Prerequisites
 

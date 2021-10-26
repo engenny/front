@@ -14,7 +14,7 @@
 
 ## 💻 Prerequisites
 
-Before starting, you will need to have the following tools installed on your machine: Git , Vue.js, Vuex, Bootstrap . Also, it's nice to have an editor to work with the code like VSCode .
+Before starting, you will need to have the following tools installed on your machine: Git , Vue.js, Vuex, Bootstrap, Node.js . Also, it's nice to have an editor to work with the code like VSCode .
 
 ### ⚙️ Running
 
@@ -60,9 +60,13 @@ npm run lint
 
 ## ⚛️ Technologies
 The following tools were used in the construction of the project:
+
 -Vue.js
+
 -Vuex
+
 -Boostrap, Bootstrap Vue
+
 -ApexChart
 
 ## 👨‍💼 Author

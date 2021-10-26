@@ -23,26 +23,6 @@ Before starting, you will need to have the following tools installed on your mac
 npm install
 ```
 
-### ApexChart 
-```
-npm install apexcharts --save
-```
-
-### Vuex
-```
-npm install vuex --save
-```
-
-### Bootstrap Vue
-```
-npm i bootstrap-vue
-```
-
-### Bootstrap 
-```
-npm i bootstrap
-```
-
 ### Compiles and hot-reloads for development
 ```
 npm run serve
